@@ -4,3 +4,8 @@ languages:
   - javascript
 resources:
   - 1
+
+function say(greeting, firstName) {
+  console.log('I was called!')
+  return `${greeting}, ${firstName}!`
+}
